@@ -1,6 +1,6 @@
-# Web security
+# Web security Basics
 
-### 1. **Input Validation and Sanitization**
+## 1. **Input Validation and Sanitization**
 
 - **Validate Input**: Always validate user input on the client side, though remember that client-side validation is not a substitute for server-side validation.
 - **Sanitize Input**: Remove or encode potentially harmful characters from user input to prevent injection attacks like Cross-Site Scripting (XSS).
@@ -27,7 +27,7 @@
 </html>
 ```
 
-### 2. **Cross-Site Scripting (XSS) Prevention**
+## 2. **Cross-Site Scripting (XSS) Prevention**
 
 - **Output Encoding**: Encode data before rendering it in the HTML to prevent XSS attacks. Use libraries like DOMPurify to sanitize HTML.
 - **Avoid `eval`**: Avoid using `eval()` or similar functions (`setTimeout`, `setInterval` with string arguments) which can execute arbitrary code.
@@ -56,7 +56,7 @@
 </html>
 ```
 
-### 3. **Cross-Site Request Forgery (CSRF) Prevention**
+## 3. **Cross-Site Request Forgery (CSRF) Prevention**
 
 - **CSRF Tokens**: Use CSRF tokens to ensure that requests made on behalf of users are legitimate.
 - **SameSite Cookies**: Set cookies with the `SameSite` attribute to prevent them from being sent along with cross-site requests.
@@ -97,17 +97,17 @@
 </html>
 ```
 
-### 4. **Authentication and Authorization**
+## 4. **Authentication and Authorization**
 
 - **Use Secure Authentication Methods**: Implement strong authentication mechanisms (e.g., OAuth, JWT) and ensure that passwords are hashed and salted before storing.
 - **Access Control**: Implement proper access control checks to ensure users can only access resources they are authorized to.
 
-### 5. **Secure Communication**
+## 5. **Secure Communication**
 
 - **HTTPS**: Always use HTTPS to encrypt data transmitted between the client and server. Use HSTS (HTTP Strict Transport Security) to enforce HTTPS.
 - **Secure WebSockets**: If using WebSockets, ensure they are secure (wss://) to protect against man-in-the-middle attacks.
 
-### 6. **Secure Storage**
+## 6. **Secure Storage**
 
 - **Avoid Storing Sensitive Data**: Avoid storing sensitive data (like passwords or tokens) in local storage or session storage, as they are accessible through JavaScript.
 - **Secure Cookies**: Store tokens and other sensitive information in cookies with `HttpOnly` and `Secure` flags.
@@ -137,7 +137,7 @@
 </html>
 ```
 
-### 7. **Third-Party Dependencies**
+## 7. **Third-Party Dependencies**
 
 - **Review and Monitor Dependencies**: Regularly review and update third-party libraries to ensure they do not introduce vulnerabilities.
 - **Use Subresource Integrity (SRI)**: Use SRI to ensure that the content of external scripts and stylesheets has not been tampered with.
@@ -162,12 +162,12 @@
 </html>
 ```
 
-### 8. **Error Handling**
+## 8. **Error Handling**
 
 - **Generic Error Messages**: Avoid displaying detailed error messages to users. Instead, log errors on the server and show generic messages to users.
 - **Catch Errors**: Use try-catch blocks and error handling mechanisms to prevent application crashes and exposure of stack traces.
 
-### 9. **Clickjacking Protection**
+## 9. **Clickjacking Protection**
 
 - **X-Frame-Options**: Use the `X-Frame-Options` header to prevent your site from being embedded in iframes, which can prevent clickjacking attacks.
 - **CSP Frame Ancestors**: Use the `frame-ancestors` directive in CSP to control which sites can embed your pages.
@@ -191,7 +191,7 @@
 </html>
 ```
 
-### 10. **Secure Client-Side Logic**
+## 10. **Secure Client-Side Logic**
 
 - **Minify and Obfuscate**: Minify and obfuscate JavaScript code to make it harder for attackers to understand and tamper with.
 - **Avoid Sensitive Logic on Client Side**: Avoid putting sensitive logic or business rules on the client side where they can be easily inspected and manipulated.
@@ -235,6 +235,6 @@
 </html>
 ```
 
-### Summary
+## Summary
 
 By adhering to these best practices, you can significantly enhance the security of your frontend application and protect against a wide range of attacks. Remember that security is an ongoing process, and regular audits and updates are essential to maintaining a secure application.
