@@ -1,8 +1,8 @@
-# Contribution Guide 🧟‍♂️
+# Contribution Guide
 
 Everyone can contribute to help other developers utilize this documentation for their learning and to improve their programming skills.
 
-## Naming Convention for filenames 🤖
+## Naming Convention for filenames
 
 1. **Lowercase Letters**: Use lowercase letters to maintain consistency and avoid issues in case-sensitive file systems.
    - Example: `frontend-engineering.md`
