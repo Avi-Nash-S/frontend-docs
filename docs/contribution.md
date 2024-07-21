@@ -29,3 +29,5 @@ Following these guidelines, some examples of Markdown file names are:
 - `responsive-design.md`
 - `javascript-fundamentals.md`
 - `css-tips-and-tricks.md`
+
+[Home](../README.md)

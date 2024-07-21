@@ -1,4 +1,21 @@
-# Web security Basics
+# 🔐 Web security
+
+## Summary
+
+By adhering to these best practices, you can significantly enhance the security of your frontend application and protect against a wide range of attacks. Remember that security is an ongoing process, and regular audits and updates are essential to maintaining a secure application.
+
+```text
+- Input Sanitize
+- Prevent Cross-Site-Scripting XSS
+- Add Content security policy CSP (via headers)
+- Prevent Cross-Site-Request-Forgery CSRF (with csrf tokens)
+- Always use HTTPs and WSS (secure only)
+- Cookies with sameSite and secure 
+- Evaluate third party dependencies in regular interval
+- IFrame - X-Frame-Options (to block embedding your site) 
+- IFrame - frame-ancestors in CSP (to block embedding your site)
+- Secure client side logic and proper error handling
+```
 
 ## 1. **Input Validation and Sanitization**
 
@@ -235,6 +252,4 @@
 </html>
 ```
 
-## Summary
-
-By adhering to these best practices, you can significantly enhance the security of your frontend application and protect against a wide range of attacks. Remember that security is an ongoing process, and regular audits and updates are essential to maintaining a secure application.
+[Home](../README.md)
