@@ -1,4 +1,4 @@
-# 📄 Design Pattern - Cheatsheet
+# 📄 Design Pattern
 
 ## Singleton
 
