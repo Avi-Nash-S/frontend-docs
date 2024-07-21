@@ -6,6 +6,6 @@ Quickly built on using [MkDocs](https://github.com/squidfunk/mkdocs-material)
 
 ## Contents
 
-- [Design Patterns](https://avi-nash-s.github.io/handbook/design-pattern.md)
-- [Web-Performance](https://avi-nash-s.github.io/handbook/web-performance.md)
-- [Web-security](https://avi-nash-s.github.io/handbook/web-security.md)
+- [Design Patterns](https://avi-nash-s.github.io/handbook/design-pattern)
+- [Web-Performance](https://avi-nash-s.github.io/handbook/web-performance)
+- [Web-security](https://avi-nash-s.github.io/handbook/web-security)
