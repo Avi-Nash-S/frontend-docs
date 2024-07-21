@@ -1,4 +1,4 @@
-site_name: Frontend Documentation
+site_name: Zombie's Handbook
 theme:
   name: material
   custom_dir: overrides
